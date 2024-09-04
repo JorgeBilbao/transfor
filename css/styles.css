@@ -11011,3 +11011,8 @@ header {
 .carousel {
   margin-bottom: 0;
 }
+.elemento {
+  -webkit-appearance: none; /* Para Chrome, Safari y versiones recientes de Opera */
+  -moz-appearance: none;    /* Para Firefox */
+  appearance: none;         /* Propiedad estándar */
+}
