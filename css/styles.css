@@ -10971,7 +10971,7 @@ header {
   height: 100vh; /* Mantiene la altura del carrusel */
   width: 50%; /* Mantiene la imagen a lo ancho del contenedor */
   object-fit: cover; /* Asegura que la imagen cubra el contenedor */
-  object-position: center top; /* Mueve la imagen hacia arriba */
+  object-position: bottom; /* Mueve la imagen hacia arriba */
 }
 .text-container {
   background: rgba(0, 0, 0, 0.3); /* Fondo negro semi-transparente */
@@ -10997,4 +10997,17 @@ header {
   max-width: 100px; /* Ajusta este valor para controlar el tamaño máximo de la imagen */
   height: auto; /* Mantiene la proporción de la imagen */
   margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+/* Eliminar márgenes y padding en el navbar y header */
+#mainNav {
+  margin-bottom: 0;
+}
+
+header {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.carousel {
+  margin-bottom: 0;
 }
